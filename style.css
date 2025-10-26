@@ -50,7 +50,7 @@ p {
 main {
   margin: 0 auto;
   background-color: var(--Grey950);
-  padding: 14rem 2rem;
+  padding: 12.5rem 2rem;
 }
 
 .all {
@@ -100,7 +100,7 @@ main {
   font-size: 1.7rem;
 }
 
-.circle:visited {
+.circle:focus {
   background-color: var(--White);
   color: var(--Grey900);
 }
@@ -176,6 +176,6 @@ main {
 
 @media (min-width: 500px) {
   main {
-    padding: 13rem 6rem;
+    padding: 12.5rem 6rem;
   }
 }
