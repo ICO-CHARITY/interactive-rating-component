@@ -1,0 +1,181 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 100%, 100%);
+  --greyc: rgb(66, 66, 78);
+  --Grey500: hsl(217, 12%, 63%);
+  --Grey900: hsl(213, 19%, 18%);
+  --Grey950: hsl(216, 12%, 8%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--White);
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--White);
+}
+
+p {
+  font-size: 1.6rem;
+  color: var(--Grey500);
+}
+
+main {
+  margin: 0 auto;
+  background-color: var(--Grey950);
+  padding: 14rem 2rem;
+}
+
+.all {
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: var(--Grey900);
+  max-width: 350px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2.5rem;
+}
+
+.icon {
+  padding: 1.6rem;
+  border-radius: 50%;
+  background-color: var(--greyc);
+}
+
+.rate-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.circle-container {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--greyc);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.circle:visited {
+  background-color: var(--White);
+  color: var(--Grey900);
+}
+
+.circle:hover {
+  color: var(--Grey900);
+  background-color: var(--Orange);
+}
+
+.submit {
+  padding: 0.5rem;
+  border-radius: 50px;
+  background-color: var(--Orange);
+  font-size: 2rem;
+  text-align: center;
+  color: var(--Grey900);
+}
+
+.submit a {
+  color: var(--Grey900);
+}
+
+.submit:hover {
+  background-color: var(--White);
+  color: var(--Grey500);
+}
+
+/*PART 2*/
+
+.hidden {
+  visibility: hidden;
+}
+
+.container2 {
+  max-width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Grey900);
+  border-radius: 10px;
+  padding: 3rem;
+  position: absolute;
+  inset: 0%;
+}
+
+.selected {
+  padding: 1rem;
+  border-radius: 50px;
+  background-color: var(--greyc);
+  font-size: 1.7rem;
+}
+
+.selected p {
+  color: var(--Orange);
+}
+
+.appreciate {
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: var(--Orange);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 500px) {
+  main {
+    padding: 13rem 6rem;
+  }
+}
