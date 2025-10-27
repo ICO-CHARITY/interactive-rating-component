@@ -22,7 +22,6 @@ html {
 body {
   font-family: 'DM Sans', sans-serif;
   line-height: 1.5;
-  background-color: var(--Grey950);
 }
 
 ul {
@@ -55,6 +54,7 @@ p {
 main {
   margin: 0 auto;
   padding: 12.5rem 2rem;
+  background-color: var(--Grey950);
 }
 
 .all {
@@ -135,7 +135,7 @@ main {
 }
 
 /*dark mode toggle */
-body[data-theme='dark'] {
+body[data-theme='dark'] main {
   background-color: var(--Grey500);
 }
 
