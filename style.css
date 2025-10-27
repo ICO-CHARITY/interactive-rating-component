@@ -98,6 +98,7 @@ main {
   align-items: center;
   cursor: pointer;
   font-size: 1.7rem;
+  border: none;
 }
 
 .circle:focus {
@@ -149,14 +150,11 @@ main {
   inset: 0%;
 }
 
-.selected {
+.result {
   padding: 1rem;
   border-radius: 50px;
   background-color: var(--greyc);
   font-size: 1.7rem;
-}
-
-.selected p {
   color: var(--Orange);
 }
 
